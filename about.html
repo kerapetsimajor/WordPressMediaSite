@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/breakpoints.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="img/favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>WordPress Media | Top Rated WordPress Developer</title>
+
+    </head>
+    <body>
+        <main>
+            <header>
+                <nav>
+                    <div class="row">
+                        <div class="navbar">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo.png" alt=""></a>
+                            </div>
+                            <div class="navbar-links">
+                                <ul>
+                                    <li><a href="#">Website Design</a></li>
+                                    <div class="dropdown">
+                                        <a href="#" class="dropbtn">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                        <div class="dropcontent">
+                                            <a href="#">SEO</a>
+                                            <a href="#">Local Marketing</a>
+                                            <a href="#">Maintenance</a>
+                                            <a href="#">Consultation</a>
+                                        </div>
+                                    </div>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="hire-me">
+                                <a href="#" class="btn hire-me">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="container">
+                    <div class="hero-about">
+                        <div class="hero-about-content">
+                            <h1>Get someone who understands how to built a website that works.</h1>
+                        </div>
+                    <div class="hero-video">
+                      <div id="ytplayer"></div>
+                        <script>
+                          // Load the IFrame Player API code asynchronously.
+                          var tag = document.createElement('script');
+                            tag.src = "https://www.youtube.com/player_api";
+                          var firstScriptTag = document.getElementsByTagName('script')[0];
+                          firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                          // Replace the 'ytplayer' element with an <iframe> and
+                          // YouTube player after the API code downloads.
+                          var player;
+                          function onYouTubePlayerAPIReady() {
+                            player = new YT.Player('ytplayer', {
+                            height: '360',
+                            width: '640',
+                            videoId: 'M7lc1UVf-VE'
+                            });
+                          }
+                        </script>
+                      <!--<video width="720" height="auto" controls>
+                            <source src="https://www.youtube.com/watch?v=ofqcd8ZVx5I" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                            Your browser does not support the video tag.
+                        </video> -->
+                    </div>
+                    <div class="video-button">
+                        <button class="btn">Book a call</button>
+                    </div>
+                </div>
+            </header>
+            <section id="about-me">
+                <div class="container">
+                    <div class="about-me">
+                        <div class="about-me-content">
+                            <h1>About Me</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto amet qui rem, recusandae facilis vel dolorem, in quidem eos, dolorum modi? Officiis ullam animi cupiditate earum ipsam laborum commodi fugit illum, numquam minima harum! In.</p>
+                            <div class="about-me-socials">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="about-me-profile">
+                            <img src="img/profile.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="why-wpmedia">
+                <div class="container">
+                    <div class="why-wpmedia-text">
+                        <h2>Why WordPress Media?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, pariatur laboriosam. Magnam ipsum aspernatur atque rerum enim ratione quisquam qui? Dolore dolorum cum, inventore modi quaerat facilis iure harum ipsum!</p>
+                    </div>
+                    <div class="our-values">
+                        <div class="our-value">
+                            <div class="our-value-number">1</div>
+                            <h4>Authentic</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis minima quis blanditiis, quos numquam esse.</p>
+                        </div>
+                        <div class="our-value">
+                            <div class="our-value-number">2</div>
+                            <h4>100% In House</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis minima quis blanditiis, quos numquam esse.</p>
+                        </div>
+                        <div class="our-value">
+                            <div class="our-value-number">3</div>
+                            <h4>Reputation</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis minima quis blanditiis, quos numquam esse.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="cta">
+          <div class="container">
+            <div class="cta-headline">
+              <h2>Book a 15 Minutes Free Call With Me</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quis dolore modi error animi velit hic similique consequatur eius consectetur voluptate ab quod laudantium laboriosam voluptates inventore, nam nostrum totam.</p>
+            </div>
+            <div class="cta-btn">
+              <button class="btn"><i class="fa fa-phone" aria-hidden="true"></i> Book a Call</button>
+            </div>
+          </div>
+        </section>
+        <section id="testimonials">
+          <div class="container">
+            <div class="testimonial-heading">
+              <h2>Testimonials</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ex exercitationem ratione nisi, dolorem quasi.</p>
+            </div>
+            <div class="testimonial-projects">
+              <div class="testimonial-project">
+                <img src="img/projects/ditaro.png" alt="">
+              </div>
+              <div class="testimonial-content">
+                <div class="testimonial-contents">
+                  <div class="testimonial-profile">
+                    <img src="img/profile.png" alt="">
+                  </div>
+                  <div class="testimonial-quotes">
+                    <q>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolores vitae voluptas enim sapiente, ab similique perspiciatis? Laboriosam magni consequatur sequi. Doloribus quasi explicabo blanditiis, quidem perspiciatis, corporis facere reiciendis exercitationem, molestias excepturi dicta error.</q>
+                  </div>
+                  <div class="author">
+                    <p>-Mawonga Hloyi</p>
+                  </div>
+                </div>
+                <div class="testimonial-nav">
+                  <i class="fa fa-angle-left" aria-hidden="true"></i>
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="icons-features">
+          <div class="container">
+            <div class="icons-items">
+              <i class="fa fa-wordpress" aria-hidden="true"></i>
+              <i class="fa fa-html5" aria-hidden="true"></i>
+              <i class="fa fa-css3" aria-hidden="true"></i>
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              <i class="fa fa-google" aria-hidden="true"></i>
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </div>
+          </div>
+        </section>
+        <section id="footer">
+          <footer>
+            <div class="container">
+              <div class="footer-info">
+                <div class="footer-about">
+                  <h4>About</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis atque sit excepturi! Accusantium sequi error nobis inventore laudantium recusandae.</p>
+                </div>
+                <div class="useful-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Bookings</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Policy</a></li>
+                  </ul>
+                </div>
+                <div class="social-media">
+                  <h4>Social Media</h4>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyrights">
+              <p>2021 &#169; Copyrights WordPress (Pty) Ltd | Developed by <a href="#">Kerapetsi Major</a></p>
+            </div>
+          </footer>
+        </section>
+        </main>
+    </body>
+</html>
